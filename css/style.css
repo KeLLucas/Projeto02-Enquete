@@ -10,3 +10,20 @@
     --degrade-azul: #342A89;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 70vw;
+    margin: auto;
+}
+
+.external-box {
+    background-image: linear-gradient(to bottom, var(--roxo-escuro), var(--roxo-claro));
+}
+
+.internal-box {
+    background-image: linear-gradient(to bottom, var(--roxo-claro), var(--roxo-escuro));
+}

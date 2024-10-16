@@ -18,6 +18,7 @@
 .container {
     width: 70vw;
     margin: auto;
+    text-align: center;
 }
 
 .external-box {
@@ -26,4 +27,13 @@
 
 .internal-box {
     background-image: linear-gradient(to bottom, var(--roxo-claro), var(--roxo-escuro));
+}
+
+input {
+    display: flex;
+    margin: auto;
+}
+
+.votar {
+    display: inline-block;
 }
